@@ -9,20 +9,19 @@ function App() {
       <h1>Login Page</h1>
    
 
-    <FormGroup>
+    <FormGroup className="username">
 <Input type = "email" placeholder="Username"></Input>
     </FormGroup>
-
+<br></br>
     <FormGroup>
     <Input type = "password" placeholder="Password"></Input>
     </FormGroup>
-
+    <br></br>
     <Button>Sign in</Button>
+    <br></br>
 <div className="text-center pt-3"> 
 Create an account
-</div>
 
-<div className="text-center">
   <a href="/sign-up">Sign up</a>
 
 </div>
