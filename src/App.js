@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Button, Form, FormGroup, Label, Input }
+import { Button, Form, FormGroup, Input }
 from 'reactstrap'
 
 function App() {
@@ -21,9 +21,7 @@ function App() {
     <br></br>
 <div className="text-center pt-3"> 
 Create an account
-
   <a href="/sign-up">Sign up</a>
-
 </div>
     </Form>
   );
